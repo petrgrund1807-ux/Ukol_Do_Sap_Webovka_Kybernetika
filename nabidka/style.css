@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #020617;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+nav a {
+    color: #38bdf8;
+    margin: 10px;
+    text-decoration: none;
+    margin-top: 90px;
+}
+
+.text_onas{
+    margin-top: 100px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+section {
+    padding: 40px;
+}
+
+.sekce_onas{
+    padding-top: 200px;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 100px;
+}
+
+.paticka_onas{
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 366px;
+}
+
+.paticka_sluzba3{
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 105px;
+}
+
+.paticka_sluzba2{
+    margin-top: 105px;
+}
+
+form {
+    width: 250px;
+    font-size: 18px;
+}
+.paticka_kontakty{
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 266px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn_sluzby{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 905px;
+}
+
+.btn_sluzby:hover{
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.text {
+    list-style: none;
+    padding-left: 0;
+}
+
+.text li {
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.text_p{
+    margin-bottom: 20px;
+    line-height: 4;
+    font-size: 20px;
+}
+
+
+.sluzby-kontejner {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 40px 20px;
+}
+
+
+.sluzba-karta {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+    padding-bottom: 20px;
+}
+
+.sluzba-karta img {
+    width: 100%;
+    height: 250px;
+}
+
+.sluzba-karta .btn {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.sluzba-karta .btn:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.btn_odeslat{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn_odeslat:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.h1_svet{
+    margin-top: 20px;
+
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+        margin: auto;
+        line-height: 1.6;
+    }
+
+    .text {
+        margin: 10px;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .form {
+        width: 250px;
+        font-size: 19px;
+    }
+
+    .text li {
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .text_p {
+        margin-bottom: 15px;
+        line-height: 1.6;
+        font-size: 20px;
+    }
+
+    .tlacitko {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .logo{
+        margin-right: 90px;
+    }
+
+    .btn_sluzby{
+        margin-left: 200px;
+    }
+
+    .sluzby-kontejner {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sluzba-karta {
+        width: 100%;
+        max-width: 350px;
+    }
+}

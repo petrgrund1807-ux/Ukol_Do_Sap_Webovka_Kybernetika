@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0b1adaf3-ed2a-49b4-a2f3-88eedd6379a1" name="kybochrana" url="http://kybochrana.borec.cz">
+        <fileTransfer rootFolder="/web" host="ftp6.webzdarma.cz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
