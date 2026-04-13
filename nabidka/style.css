@@ -87,6 +87,10 @@ input, textarea {
     padding: 10px;
 }
 
+.h1_onas {
+    margin-top: -130px;
+}
+
 button {
     padding: 10px 20px;
     background: #38bdf8;
@@ -274,4 +278,7 @@ button {
         max-width: 300px;
     }
 
+    .h1_onas {
+        margin-top: 100px;
+    }
 }
