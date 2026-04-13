@@ -196,7 +196,6 @@ button {
 
 .h1_svet{
     margin-top: 20px;
-
 }
 
 @media (max-width: 768px) {
@@ -242,6 +241,7 @@ button {
         margin-bottom: 15px;
         line-height: 1.6;
         font-size: 20px;
+        margin-right: 35px;
     }
 
     .tlacitko {
@@ -256,21 +256,33 @@ button {
     }
 
     .logo{
-        margin-right: 90px;
+        margin-right: 110px;
     }
 
     .btn_sluzby{
-        margin-left: 200px;
+        margin-left: 130px;
     }
 
     .sluzby-kontejner {
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        display: flex;
     }
 
     .sluzba-karta {
         width: 100%;
         max-width: 350px;
+    }
+
+    .uvod{
+        margin-top: 1000px;
+    }
+
+    .sekce_onas{
+        margin-bottom: 15px;
+        line-height: 1.6;
+        font-size: 20px;
+        margin-right: 35px;
     }
 }
